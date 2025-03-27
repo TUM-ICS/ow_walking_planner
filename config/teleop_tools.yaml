@@ -1,0 +1,30 @@
+# For joy_teleop
+
+teleop:
+  walk:
+    type: topic
+    message_type: geometry_msgs/Twist
+    topic_name: walking_controller/cmd_vel
+    deadman_buttons: [4]
+    axis_mappings:
+      -
+        axis: 1
+        target: linear.x
+        scale: 1.0
+      -
+        axis: 0
+        target: angular.z
+        scale: 1.0
+      -
+        axis: 2
+        target: linear.y
+        scale: 1.0
+
+# For key_teleop
+
+hz: 5.0 
+forward_rate:  1.0
+backward_rate: 1.0
+rotation_rate: 1.0
+
+

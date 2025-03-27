@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ow_walking_planner</name>
+  <version>0.0.0</version>
+  <description>The OpenWalker walking_planner package</description>
+
+  <maintainer email="rogelio.guadarrama@tum.de">J. Rogelio Guadarrama-Olvera</maintainer>
+  <maintainer email="dean@tum.de">Emmanuel Dean-Leon</maintainer>
+  <maintainer email="florian.bergner@tum.de">Florian Bergner</maintainer>
+  <maintainer email="simon.armleder@tum.de">Simon Armleder</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <url type="website">https://github.com/ics-robotics</url>
+
+  <author email="rogelio.guadarrama@tum.de">J. Rogelio Guadarrama-Olvera</author>
+  <author email="dean@tum.de">Emmanuel Dean-Leon</author>
+  <author email="florian.bergner@tum.de">Florian Bergner</author>
+  <author email="simon.armleder@tum.de">Simon Armleder</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>ow_core</depend>
+  <depend>ow_fs_planner</depend>
+  <depend>ow_dcm_planner</depend>
+  <depend>jsk_rviz_plugins</depend>
+  <depend>key_teleop</depend>
+  <depend>joy_teleop</depend>
+
+  <test_depend>rosunit</test_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+
+</package>
